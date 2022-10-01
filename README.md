@@ -12,3 +12,5 @@ The circuits are powered using two USB power banks: one for the motors and one f
 
 The chest of the robot has a smartphone. It's used to broadcast video and audio to/from the control interface, hosted on an ordinary computer. It can also send commands to the ESP6288, thus controlling the body of the robot itself. for more details about the robot mecanical parts and hardware control sctak see <a href="https://www.instructables.com/Joy-Robot-Robô-Da-Alegria-Open-Source-3D-Printed-A/">here</a> 
 
+react-siri-ware works on @babel/runtime@7.12.18
+

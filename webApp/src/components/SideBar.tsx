@@ -1,4 +1,4 @@
-import {NavigationArrow, PhoneCall, UserFocus } from "phosphor-react";
+import { NavigationArrow, PhoneCall, UserFocus } from "phosphor-react";
 
 export function SideBar() {
   return (
