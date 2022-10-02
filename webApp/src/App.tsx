@@ -9,9 +9,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex space-x-4">
+    <div className="inset-0 bg-gray-700 h-screen w-screen flex space-x-4">
       <SideBar />
-      <main className="flex flex-1">
+      <main className="bg-gray-800 flex flex-1 gap-8 columns-2xs items-center p-8">
         <VideoBox/>
         <MapBox/>
       </main>
