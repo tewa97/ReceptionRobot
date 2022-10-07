@@ -3,6 +3,8 @@ import { useContext, useLayoutEffect, useRef } from "react"
 import { PlacesContext, MapContext } from "../../context"
 import { Loading } from '.';
 
+const mapProps = window.document.getElementsByClassName("mapContainer")
+
 export const MapView = () => {
 
   const { isLoading, userLocation } = useContext( PlacesContext )
@@ -30,11 +32,11 @@ export const MapView = () => {
     <div 
       ref={ mapDiv }
       style={{
-        height: '100vh',
-        width: '100vw',
-        position: 'fixed',
-        top: 0,
-        left: 0
+        height: "100%",
+        width:  "100%",
+        position: 'relative',
+        display: "flex"
+        
       }}  
     >
       { userLocation?.join( ", " ) }

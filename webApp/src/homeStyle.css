@@ -52,7 +52,7 @@ aside{
 	border-right: solid 2px #F1F3F8;
 	justify-content: center;
     display: grid;
-    grid-template-rows: 80px auto;
+    grid-template-rows: 16rem auto auto auto  16rem;
 }
 
 aside p{
@@ -100,9 +100,8 @@ main h1{
 }
 .notesContainer{
     display: grid;
-    grid-template-columns: 19rem 43rem;
-    justify-content: SPACE-AROUND;
-    grid-gap: 1rem;
+    grid-template-columns: 19rem 49rem;
+    justify-content: space-around;
     width: auto;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -117,7 +116,7 @@ main h1{
     background-color: yellow;
 }
 
-.mapContainer {
+.mapContainer, .mapContainer > div{
     display: flex;
     margin: 2rem 0 2rem 0;
     border-radius: 1rem;
