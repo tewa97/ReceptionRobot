@@ -5,6 +5,6 @@ type Props = MapViewProps
 
 export function Map({...rest}: Props){
     return(
-         <MapView style={styles.container}/>
-    )
+         <MapView style={styles.map} />
+    );
 }
