@@ -7,7 +7,6 @@ export default function App() {
   return (
     <View >
       <StatusBar style="auto" />
-      <Text>Open up App.tsx to start working on your app!</Text>
       <Map/>
     </View>
   );

@@ -1,10 +1,12 @@
-import MapView, { MapViewProps } from "react-native-maps"
+import { View } from "react-native";
+import MapView from "react-native-maps"
 import { styles } from './styles'
 
-type Props = MapViewProps
 
-export function Map({...rest}: Props){
+export function Map(){
     return(
-         <MapView style={styles.map} />
+        <View>
+            <MapView style = {styles.map} />
+        </View>
     );
-}
+}   
