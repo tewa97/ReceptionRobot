@@ -1,10 +1,9 @@
-import { View } from "react-native";
-import MapView from "react-native-maps"
-import { styles } from './styles'
+import React from 'react';
+import MapView from 'react-native-maps';
+import { styles } from './styles';
 
-
-export function Map(){
-    return(
+export function Maps() {
+  return (
       <MapView
         initialRegion={{
           latitude: 37.78825,
@@ -14,5 +13,5 @@ export function Map(){
         }}
        style={ styles.container }
       />
-    );
-}   
+       );
+}
