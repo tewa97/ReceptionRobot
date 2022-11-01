@@ -4,12 +4,6 @@
 
 
 # mobile app
- 
-### splash screen
-
-<p align="center">
-<img src="mobile/assets/voiceAssistantSplash.jpg" width="50%"/>
-</p>
 
 ### ui kit
 <p align="center">
