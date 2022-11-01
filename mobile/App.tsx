@@ -5,9 +5,19 @@ import { Map } from './src/components/Maps';
 
 export default function App() {
   return (
-    <View >
-      <StatusBar style="auto" />
+    <View style={styles.overallViewContainer}>
       <Map/>
+      <View style={styles.allNonMapThings}>
+        <View style={styles.inputContainer}>
+          <TextInput placeholder=" Where to?" style={styles.input} />
+        </View>
+
+        <View style={styles.button}>
+          <TouchableOpacity>
+            <Text style={styles.buttonText}>Call it out</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
     </View>
   );
 }
