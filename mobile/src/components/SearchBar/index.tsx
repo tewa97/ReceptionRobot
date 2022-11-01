@@ -5,7 +5,7 @@ import { styles } from './styles';
 export function SearchBar() {
   return (
     <View style={styles.inputContainer}>
-      <TextInput placeholder=" Where to?" style={styles.input} />
+      <TextInput placeholder=" Where to go ..." style={styles.input} />
     </View>
   );
 }
