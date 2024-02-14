@@ -3,9 +3,13 @@
 </p>
 
 
-# mobile app
-
+# Mobile app
+ it's  a mobile app that helps people to find their path at our society
 ### ui kit
 <p align="center">
 <img src="https://i.pinimg.com/564x/39/25/86/39258643313a52e0f99eb38c325fa007.jpg" width="80%"/>
 </p>
+
+## Setup 
+
+`yarn start`
