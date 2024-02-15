@@ -14,6 +14,6 @@
 
 `yarn start`
 
-### next steps sugestions
+### Next steps sugestions
 
 - build a desktop version with electronjs
